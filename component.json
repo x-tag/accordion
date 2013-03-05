@@ -1,0 +1,17 @@
+{
+  "name": "accordion",
+  "description": "",
+  "version": "0.1.0",
+  "keywords": [    
+    "element",
+    "custom",
+    "accordion",
+    "x-tag"
+  ],
+  "scripts": [
+    "src/main.js"
+  ],
+  "dependencies": {
+    "x-tag-core": "*"
+  }
+}
