@@ -2,9 +2,11 @@
 
 Install
 
-$ npm install
-$ bower install
-$ grunt build
+```
+	$ npm install
+	$ bower install
+	$ grunt build
+```
 
 ## Syntax
 
