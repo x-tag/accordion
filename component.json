@@ -8,8 +8,9 @@
     "accordion",
     "x-tag"
   ],
-  "scripts": [
-    "src/main.js"
+  "main": [
+    "src/accordion.js",
+    "src/accordion.css"
   ],
   "dependencies": {
     "x-tag-core": "*"
