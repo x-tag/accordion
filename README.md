@@ -1,13 +1,3 @@
-## Developers
-
-Install
-
-```
-	$ npm install
-	$ bower install
-	$ grunt build
-```
-
 ## Syntax
 
 The accordion operates by using a pairing of html header tags ```h1-h6``` with an adjacent ```<section>``` tag.  The header tag acts as the toggler/click target.  To have a section open by default, set the ```selected``` attribute on the header or set the ```selected-index``` attribute on the accordion.
@@ -70,4 +60,12 @@ When the active section is changed x-accordion will fire a ```selected``` event.
 
 ```
 
+
+# Create X-Tag Components
+
+[Guide for creating X-Tag Components](https://github.com/x-tag/core/wiki/Creating-X-Tag-Components)
+
+# Use X-Tag Components
+
+[Using X-Tag components in your applications](https://github.com/x-tag/core/wiki/Using-X-Tag-Components-in-your-application)
 
