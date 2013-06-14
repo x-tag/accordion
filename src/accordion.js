@@ -1,6 +1,6 @@
 
 (function(){
-  
+
   var hlevels = 'h1, h2, h3, h4, h5, h6',
     select = function(heading){
       xtag.query(heading.parentNode, hlevels).forEach(function(el, idx){
@@ -22,7 +22,7 @@
           var selected = xtag.queryChildren(this, '[selected]')[0];
           if (selected) select(selected);
         }
-      },
+      }
     },
     events: {
       'tap:delegate(h1, h2, h3, h4, h5, h6)': function(event){
@@ -38,7 +38,8 @@
     },
     accessors:{
       'selectedIndex':{
-        'set:attribute(selected-index)': function(value){
+        attribute: { name: 'selected-index' },
+        set: function(value){
           xtag.query(this, hlevels).forEach(function(el, idx){
             if (value == idx) {
               el.setAttribute('selected', null);
@@ -52,7 +53,7 @@
         }
       }
     },
-    methods: {      
+    methods: {
       getSelected: function(){
         return xtag.queryChildren(this, '[selected]')[0];
       },
@@ -67,5 +68,5 @@
       }
     }
   });
-  
+
 })();
