@@ -1,7 +1,7 @@
 {
   "name": "accordion",
   "description": "An accordion is a collection of panels containing content separated by toggler elements.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "keywords": [
     "element",
     "custom",
